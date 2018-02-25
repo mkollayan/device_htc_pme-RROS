@@ -1,0 +1,6 @@
+type operator-properties, domain;
+type operator-properties_exec, exec_type, file_type;
+init_daemon_domain(operator-properties)
+
+#============= operator-properties ==============
+allow operator-properties rootfs:lnk_file getattr;
